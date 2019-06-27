@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik+Mono+One&display=swap');
+
+    
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+
+    background-color: #161617;
+    border: 1px solid #161617;
+    border-radius: 0px;
+    padding: 8px 15px;
+    color:#fff;
+    font-size:18px;
+   font-family: 'Montserrat', sans-serif;
+   display: flex;
+   flex-direction: column;
+}
+
+    
+
+
+h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
+    margin: 0;
+    padding: 0;
+}
+.top-header .logo {
+       
+            font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    
+   
+    }
+.top-header .logo2  {
+       
+        border-radius: 5px; 
+        
+         font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+ ;
+    }
+  
+  .top-header .top-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex: 1;
+    align-items: center;
+    
+   
+    
+}
+
+.top-header .top-menu li {
+    list-style-type: none;
+   
+}
+
+.top-header .top-menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #d8d8e8;
+    padding: 2px;
+    color:#fff;
+}
+    
+    .top-header .top-menu li a:hover {
+    border: 3px solid #d8d8e8;
+     border-radius: 3px;
+    
+}
+
+@media (min-width: 600px) {
+    
+.top-header nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+ .box {
+    flex:2;
+    order:2;
+}
+
+
+ 
+    
+
