@@ -19,7 +19,13 @@ body {
 }
 
     
+.top-header .box {
+    flex:2;
+}
 
+.top-header .box2 {
+    flex:1;
+}
 
 h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
     margin: 0;
@@ -78,13 +84,17 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
         display: flex;
         align-items: center;
     }
-}
 
- .box {
-    flex:2;
-    order:2;
+.top-header .sport {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-
 
  
     
