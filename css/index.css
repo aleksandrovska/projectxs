@@ -12,7 +12,7 @@ body {
     color:#fff;
     font-size:18px;
    font-family: 'Montserrat', sans-serif;
-   
+    
    
 }
 h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
@@ -20,12 +20,12 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
     padding: 0;
 }
 .container{
-    max-width: 980px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 50px  20px;
+    padding: 12px  12px;
     display: flex;
     flex-direction: column;
-    
+    max-height: 100px;
 }
    
  .box {
@@ -56,11 +56,11 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
          font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
  ;
-    }
-  
+    
+  }
   .box-3 .top-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
     flex: 1;
     align-items: center;
@@ -95,14 +95,78 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
         align-items: center;
     }
 
-.sport {
+.container-2 {
     background-image: url(../img/sport.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 300px;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+@media (min-width: 600px) {
+    .container-2 {
+        min-height: 500px;
+    }
+}
+.button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 1px solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: transparent;
+    min-width: 110px
+    
+    
+     
+    
+}
+.box-4 {
+    flex:1;
+ /*  background-color: #161617; */
+text-transform: uppercase;
+    text-decoration: none;
+    padding: 2px;
+    color:#fff;
+}
+.box-5 {
+    flex:1;
 }
 
+.container-3 {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0px  0px;
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+}
+.box-6{
+   flex:1; 
+    max-width: 550px;
+    margin: 15px;
+    padding: 10px 10px;
+}
+.box-7{
+    flex:1;
+    max-width: 550px;
+    font-family: 'Montserrat', sans-serif;
+     font-size:18px;
+     margin: 15px;
+    padding: 10px 10px;
+}
+.content {
+     font-size:18px;
+     text-align: center;
+     
+}
