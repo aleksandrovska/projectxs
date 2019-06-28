@@ -1,35 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik+Mono+One&display=swap');
 
     
-
-
 body {
     max-width: 980px;
     margin: auto;
 
     background-color: #161617;
-    border: 1px solid #161617;
+    border: 0px solid #cacacf;
     border-radius: 0px;
     padding: 8px 15px;
     color:#fff;
     font-size:18px;
    font-family: 'Montserrat', sans-serif;
-   display: flex;
-   flex-direction: column;
+   
+   
 }
-
-    
-.top-header .box {
-    flex:2;
-}
-
-.top-header .box2 {
-    flex:1;
-}
-
 h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
     margin: 0;
     padding: 0;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px  20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+   
+ .box {
+    flex:17;
+}
+
+.box-2 {
+    flex:1;
+    justify-content: flex-end;
+}
+
+
+.top-header {
+    display: flex;
 }
 .top-header .logo {
        
@@ -48,9 +58,9 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
  ;
     }
   
-  .top-header .top-menu {
+  .box-3 .top-menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0;
     flex: 1;
     align-items: center;
@@ -59,12 +69,12 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
     
 }
 
-.top-header .top-menu li {
+.box-3 .top-menu li {
     list-style-type: none;
    
 }
 
-.top-header .top-menu li a {
+.box-3 .top-menu li a {
     text-transform: uppercase;
     text-decoration: none;
     border: 1px solid #d8d8e8;
@@ -72,7 +82,7 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
     color:#fff;
 }
     
-    .top-header .top-menu li a:hover {
+    .box-3 .top-menu li a:hover {
     border: 3px solid #d8d8e8;
      border-radius: 3px;
     
@@ -80,13 +90,13 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
 
 @media (min-width: 600px) {
     
-.top-header nav {
+.box-3 nav {
         display: flex;
         align-items: center;
     }
 
-.top-header .sport {
-    background-image: url(../img/background.jpg);
+.sport {
+    background-image: url(../img/sport.jpg);
     background-position: center;
     background-size: cover;
     min-height: 300px;
@@ -95,7 +105,4 @@ h1, h2, h3, h4, h5, h6, header, main, footer, nav, p {
     justify-content: center;
     flex-direction: column;
 }
-
- 
-    
 
