@@ -3,10 +3,10 @@
 
 
 body {
-    max-width: 980px;
+    max-width: 100%;
     margin: auto;
 
-    background-color: #161617;
+    background-color: #000000;
     border: 0px solid #cacacf;
     border-radius: 0px;
     padding: 8px 15px;
@@ -33,16 +33,17 @@ p {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 8px 8px;
     display: flex;
     flex-direction: column;
     max-height: 100px;
 }
 
 .box {
-    flex: 17;
+    flex: 16;
+
 }
 
 .box-2 {
@@ -66,25 +67,30 @@ p {
 
 .top-header .logo2 {
 
-    border-radius: 5px;
+   
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 13px;
+    text-align: left;
     ;
 
 }
 
+.menu { color: #fff;
+background-color: #161617;
+       background-size: cover;
+        filter: alpha(Opacity=77);
 
+        opacity: 0.77; 
+
+}
 
 .box-3 .top-menu {
     display: flex;
     justify-content: space-around;
     padding: 0;
     flex: 1;
-
-
-
-
+  
 }
 
 .box-3 .top-menu li {
@@ -121,19 +127,23 @@ p {
         /*filter: alpha(Opacity=60);
 
         opacity: 0.60; */
-        min-height: 400px;
+        min-height: 300px;
+
         display: flex;
 
         flex-direction: row;
+margin-top: -55px;
         font-family: 'Montserrat', sans-serif;
         align-items: center;
-        padding-left: 40px;
+        padding-left: 10%;
+
 
 
     }
-    @media (min-width: 600px) {
+    @media (min-width: 200px) {
         .container-2 {
-            min-height: 500px;
+            min-height: 200px;
+
         }
     }
     .button {
@@ -153,18 +163,17 @@ p {
         height: 30px;
     }
     .transparent75 {
-        filter: alpha(Opacity=80);
-        /* Полупрозрачность для IE */
-        opacity: 0.80;
+        /*filter: alpha(Opacity=80);
 
+        opacity: 0.80;*/
     }
     .box-4 {
         width: 300px;
         height: 350px;
         background-color: #161617;
         text-align: left;
- border-radius: 8px;
-        margin: 100px auto 100px auto;
+        border-radius: 8px;
+        margin: 150px auto 100px auto;
 
         text-decoration: none;
         padding: 2px;
@@ -173,32 +182,36 @@ p {
         padding-top: 21px;
         filter: alpha(Opacity=77);
 
-        opacity: 0.77; 
+        opacity: 0.77;
+
     }
-    
+
     input {
         width: 255px;
         height: 25px;
         font-size: 13px;
-       /* margin-bottom: 10px;*/
-       border-radius: 10px;
-       padding-left: 10px;
+        /* margin-bottom: 10px;*/
+        border-radius: 10px;
+        padding-left: 10px;
     }
     .box-5 {
         flex: 1;
         padding-left: 200px;
         color: white;
-        
+
+
     }
 
     .container-3 {
-        max-width: 980px;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0px 0px;
         display: flex;
         flex-direction: row;
         max-height: 500px;
+
     }
+
     .box-6 {
         flex: 1;
         max-width: 550px;
@@ -216,5 +229,37 @@ p {
     .content {
         font-size: 18px;
         text-align: center;
+        padding-left: 30px;
+        padding-top: 21px;
+       
 
+    }
+    .box-8 {
+
+        flex font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+
+.container-4 {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: row;
+        max-height: 500px;
+    }
+    .box-9 {
+        flex: 1;
+        max-width: 900px;
+       
+       
+       
+    }
+.box-10 {
+     
+
+        flex font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+         padding-top: 15%;
+     
     }
