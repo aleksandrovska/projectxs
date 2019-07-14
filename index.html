@@ -3,44 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/7b4844eb77.js"></script>
-    <title>Project XS</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<title>Project XS</title>
+<link rel="stylesheet" href="css/index1.css">  
+
 </head>
 
 <body>
 
 
+
+    
+   
+    <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-        <header class="top-header">
-
-            <div class="box">
-                <p lang="en" style="text-transform:uppercase" class="logo">Project XS</p>
-                <p class="logo2">Я заплачу тобі за те, що ти зміниш своє тіло</p>
-            </div>
-            <div class="box-2">
-                <p><a href="https://instagram.com/trainer_lauraa?igshid=qm4z6u7vkaza" target="_blank"><i class="fab fa-instagram" id="instagram"></i></a></p>
-            </div>
-        </header>
+      <a class="navbar-brand js-scroll-trigger" href="#">Project XS</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Головна</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Про нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#feedback">Відгуки</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contacts">Контакти</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <div class="menu">
-    <div class="box-3">
-        <nav>
-            <ul class="top-menu">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#main-information">Про нас</a></li>
-                <li><a href="#feedback">Відгуки</a></li>
-                <li><a href="#contacts">Контакти</a></li>
-            </ul>
-        </nav>
-        </div>
-    </div>
-
-
-    </div>
 
     <div class="container-2">
         <div class="box-4">
@@ -48,155 +56,265 @@
             <br>
 
             <form method="POST" action="https://formspree.io/aleksandrovska2213@gmail.com">
-                <label>
-                <input type="text" name="Ім'я" placeholder="Ім'я..." required>
-            </label>
-                <br>
-                <br>
-                <label>
-                <input type="email" name="Електронна адреса" placeholder="Електронна адреса..." required>
-            </label>
-                <br>
-                <br>
-                <label>
-                <input type="number" name="Номер телефону" placeholder="Номер телефону..." required>
-            </label>
-                <br>
-                <br>
-
-                <input class="button" type="submit" name="submit" value="Відправити">
-
-                <input class="button" type="reset" name="reset" value="Скинути">
+                <div class="group">      
+                        <input type="text" required>
+                        <span class="bar"></span>
+                        <label>Ім'я</label>
+                     </div>
+                     <div class="group">      
+                        <input type="text" required>
+                        <span class="bar"></span>
+                        <label>Електронна адреса</label>
+                     </div>
+                     <div class="group">      
+                     <input type="number" required>
+                            <span class="bar"></span>
+                            <label>Номер телефону</label>
+                         </div>
+                
+               
+                <input class="btn btn-primary btn-xl js-scroll-trigger" type="submit" name="submit" value="Відправити">
+               
 
             </form>
         </div>
 
         <div class="box-5">
             <h1 lang="en" style="text-transform:uppercase">Project XS</h1>
-            <p>Відчуй різницю</p>
+            <p>Я заплачу тобі за те, що ти зміниш своє тіло</p>
         </div>
     </div>
-    <div class="container-3">
-        <div class="box6">
-            <img src="img/photo1.jpg" alt="Фото" width="550px" class="transparent75">
-        </div>
-        <div class="box7">
-            <h1 lang="en" style="text-transform:uppercase" class="content">Project XS:</h1>
-            <h1 style="text-transform:uppercase" class="content">Онлайн фітнес марафон з акцентом
-                <br> на реабілітацію і призами до 3 тисяч
-                <br>євро для мотивації.</h1>
-            <p class="content">Що входить: </p>
-            <ol>
-                <li>30 днів меню від нашого спеціаліста нутриціолога з медичною освітою </li>
-                <li>30 днів тренувань</li>
-                <li>Робота з травмами</li>
-                <li>Вправи на покращення постави</li>
-                <li>Доступ на закритий телеграм канал</li>
-                <li>Підтримка 24/7</li>
-            </ol>
-
-        </div>
-
-    </div>
-
-    <div class="box-8">
-        <h1 id="main-information" class="content">ПРО НАС</h1>
-        <p class="content">Щомісяця нашу программу проходить близько 100 клієнтів, яким ми допомагаємо досягти їхніх цілей
-            <br>максимально індивідуально не зважаючи на груповий формат. Ми працюємо з грижами, протрузіями, травмвми колін, зайвою
-            <br>вагою, порушеннями гормонального фону. Мотивацією в досягненні успіху - є щомісячний приз. В 5 сезоні головним
-            <br>призом є сертифікат на пластику грудей на 3000євро.</p>
-        <p class="content"> Якщо ти не можеш змотивувати себе сам чесно виконувати всі
-            <br>вправи заради свого здоров'я і зовнішнього вигляду -
-            <br> це зробить наш щомісячний приз.</p>
-    </div>
-    <div class="container-4">
-        <div class="box-9">
-            <img src="img/photo2.jpg" alt="Фото" width="700px">
-        </div>
-        <div class="box-10">
-            <h1 style="text-transform:uppercase" class="content">МАРАФОН. СЕЗОН 5</h1>
-            <p class="content">Це комплекс вправ на покращення вашого самопочуття, стану здоровя і гормонального фону</p>
-        </div>
-        <!--
-    <div class="box11">
-        <h1 style="text-transform:uppercase">МАРАФОН. СЕЗОН 5</h1>
-        <p>Це боротьба за головний приз 3000євро на пластику грудей</p>
-
-    </div>
-    <div class="box12">
-        
-        <img src="img/photo3.jpg" alt="Фото" width="600px">
-    </div>
-    <hr>
-    <div class="box13">
-        
-        <img src="img/photo4.jpg" alt="Фото" width="600px">
-    </div>
-    <div class="box14">
-        <p>
-            Мене звуть Лаура. Я тренер-реабілітолог з 6 річним
-            <br>досвідом. Працюю з травмами, гормональними
-            <br>порушеннями, коригую харчову поведінку.
-            <br>Тренер тренажерної зали 3го рівня.
-            <br>Дієтолог-нутриціолог.
-            <br>Тренер функціональних, силових, кругових
-            <br>тренувань у групах.
-            <br>Тренер - реабілітолог.</p>
-    </div>
-    <hr>
-    <div class="box15">
-    <h1 id="feedback">Відгуки клієнтів</h1>
-    <img src="img/client-nastia.jpg" alt="Фото клієнта" width="400px">
-    <p>Я победила все свои страхи, всю свою боль и вернулась в
-        <br>свое тело🙏Благодарю девочки за поддержку, она очень важна,
-        <br>чувствую себя супер героем🔥</p>
-    <p>Анастасия</p>
-    <img src="img/client-vika.jpg" alt="Фото клієнта" width="400px">
-    <p>В мене -6 кг, маю надію що може ще хоч один скину за ці дні,
-        <br>моя ціль була -5)) тому я дуже задоволена! Тіло звичайно
-        <br>підтягнулось, на ногах немає вже апельсинової кірки, що мене
-        <br>дуже смущало. Вдячна за цей марафон і знайомство з вами🤗</p>
-    <p>Вікторія</p>
-    <img src="img/client-tania.jpg" alt="Фото клієнта" width="400px">
-    <p>Девочки, Лаура! Спасибо большое ,что вы есть. Я утро начинаю не
-        <br>с еды,как это было ,а со стульчики, теперь первое утро еще и с планки.
-        <br>Спасибо за крутой проект,я снова ЖИВУ.Муж и ребенок едят то ,что и Я ,
-        <br>все довольны. Для себя открыли ,авокадо😊😊.,как мы раньше без него?😂.
-        <br>СПАСИБО ОГРОМНОЕ . Мы Все победители</p>
-    <p>Татьяна</p>
-    <hr>
-    </div>
-    <div class="black">
-    <h2>Наступний марафон</h2>
-
-    <form action="#form1">
-        <button type="submit">Реєстрація на марафон</button>
-    </form>
-</div>
-    <div class="black">
-    <h1 lang="en" style="text-transform:uppercase">Project XS</h1>
-    <h1 style="text-transform:uppercase">До ваших послуг</h1>
-    <p id="contacts">Львів, Львівська область, Україна, 79000</p>
-
-    <a href="mailto:aleksandrovska2213@gmail.com">aleksandrovska2213@gmail.com</a>
-    <p>+3 80963472566</p>
-    </div>
-    <div style="overflow:hidden;width: 700px;position: relative;"><iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Lviv%2C%20Ukraine+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0"
-            scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/en/">https://embedgooglemaps.com/en/</a> & <a href="https://iamsterdamcard.it">i amsterdamcard it</a></small></div>
-        <style>
-            #gmap_canvas img {
-                max-width: none!important;
-                background: none!important
-            }
-        </style>
    
-  </div>
-  
+
+          <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+        <div class="container-3">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="text-white mt-0">Про нас</h2>
+              <hr class="divider light my-4">
+              <p class="text-white-50 mb-4">Щомісяця нашу программу проходить близько 100 клієнтів, яким ми допомагаємо досягти їхніх цілей
+                    <br>максимально індивідуально не зважаючи на груповий формат. Ми працюємо з грижами, протрузіями, травмвми колін, зайвою
+                    <br>вагою, порушеннями гормонального фону. Мотивацією в досягненні успіху - є щомісячний приз. В 5 сезоні головним
+                    <br>призом є сертифікат на пластику грудей на 3000євро.
+                    <br>Якщо ти не можеш змотивувати себе сам чесно виконувати всі
+                    <br>вправи заради свого здоров'я і зовнішнього вигляду -
+                    <br> це зробить наш щомісячний приз.</p>
+              <a class="btn btn-light btn-xl js-scroll-trigger" href="#">Залишити заявку</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <!-- main information -->
+  <section class="page-section" >
+        <div class="container">
+          <div class="row">
+              
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                <h3 class="h4 mb-2">Призи</h3>
+                <p class="text-muted mb-0">Онлайн фітнес марафон з акцентом
+                        <br> на реабілітацію і призами до 3 тисяч евро.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                <h3 class="h4 mb-2">Інформація</h3>
+                <p class="text-muted mb-0">30 днів меню від нутриціолога і 30 днів відео тренувань.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+                <h3 class="h4 mb-2">Доступ</h3>
+                <p class="text-muted mb-0">Телеграм канал з доступом 24/7. Телеграм чат, щоб в будь-який час задати питання.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+                <h3 class="h4 mb-2">Зроблено з любов'ю </h3>
+                <p class="text-muted mb-0">Вправи на покращення осанки, робота з травмами, робота з гормональним фоном. Все, для того, щоб ви почувалися краще.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+  <!-- Portfolio Section -->
+  <section id="portfolio" >
+        <div class="container-fluid p-0">
+          <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/photo1.jpg">
+                <img class="img-fluid" src="img/photo1.jpg" alt="Фото"  >
+                <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">
+                        Project XS
+                  </div>
+                  <div class="project-name">
+                    Займайся з професіоналами
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/photo2.jpg" >
+                <img class="img-fluid" src="img/photo2.jpg" alt="Фото"  >
+                <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">
+                    Project XS
+                  </div>
+                  <div class="project-name">
+                       Корекція харчової поведінки 
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/photo3.jpg">
+                <img class="img-fluid" src="img/photo3.jpg" alt="Фото" >
+                <div class="portfolio-box-caption">
+                  <div class="project-category text-white-50">
+                        Project XS
+                  </div>
+                  <div class="project-name">
+                  Робота з травмами
+                  </div>
+                </div>
+              </a>
+            </div>
+          
+           
+      </section>
+      
+
+     
+  <section class="page-section bg-primary" id="">
+        <div class="container-3">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="text-white mt-0">Переваги</h2>
+              <hr class="divider light my-4">
+              <p class="text-white-50 mb-4">30 занять по ціні одного персональого тренування з тренером. 
+              <br>Заняття в будь-який час по відео уроках, навіть в 6 ранку до роботи чи поки спить Ваша дитина.
+             <br>Доступне і смачне меню, по якому Ви не будете голодати.</p>
+              <a class="btn btn-light btn-xl js-scroll-trigger" href="#">Залишити заявку</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="feedback" >
+          <div class="feedback">
+            <h2 class="text-center mt-0">Відгуки</h2>
+            <hr class="divider my-4">
+        </div>
+            <div class="container-fluid p-0">
+              <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/client-nastia.jpg">
+                    <img class="img-fluid" src="img/client-nastia.jpg" alt="Фото клієнта" width="400px"  >
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                            Анастасия
+                      </div>
+                      <div class="project-name">
+                            Я победила все свои страхи, всю свою боль и вернулась в
+                            <br>свое тело🙏Благодарю девочки за поддержку, она очень важна,
+                            <br>чувствую себя супер героем🔥
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/client-vika.jpg"  >
+                    <img class="img-fluid" src="img/client-vika.jpg" alt="Фото клієнта" width="400px"  >
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                            Вікторія
+                      </div>
+                      <div class="project-name">
+                            В мене -6 кг, маю надію що може ще хоч один скину за ці дні,
+                            <br>моя ціль була -5)) тому я дуже задоволена! Тіло звичайно
+                            <br>підтягнулось, на ногах немає вже апельсинової кірки, що мене
+                            <br>дуже смущало. Вдячна за цей марафон і знайомство з вами🤗
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/client-tania.jpg">
+                    <img class="img-fluid" src="img/client-tania.jpg" alt="Фото клієнта" width="400px" >
+                    <div class="portfolio-box-caption">
+                      <div class="project-category text-white-50">
+                            Татьянa
+                      </div>
+                      <div class="project-name">
+                            Девочки, Лаура! Спасибо большое ,что вы есть. Я утро начинаю не
+                            <br>с еды,как это было ,а со стульчики, теперь первое утро еще и с планки.
+                            <br>Спасибо за крутой проект,я снова ЖИВУ.Муж и ребенок едят то ,что и Я ,
+                            <br>все довольны. Для себя открыли ,авокадо😊😊.,как мы раньше без него?😂.
+                            <br>СПАСИБО ОГРОМНОЕ . Мы Все победители
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              
+               
+          </section>
+
+
+            <!-- Contact Section -->
+  <section class="page-section" id="contacts">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="mt-0">Project XS </h2>
+              <hr class="divider my-4">
+              <p class="text-muted mb-5">До Ваших послуг</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+              <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+              <div>+38 (096) 347-25-66</div>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+              <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+              
+              <a class="d-block" href="mailto:aleksandrovska2213@gmail.com">contact@aleksandrovska2213@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+      <!-- Footer -->
+      <footer class="bg-light py-5">
+        <div class="container">
+          <div class="small text-center text-muted">© 2019 by Project XS. Laura Krytskaliuk</div>
+        </div>
+      </footer>
+
+   
+    
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/creative.min.js"></script>
+
 </body>
-
-    <footer> © 2019 by Project XS. Laura Krytskaliuk </footer>
-
-
 
 </html>
