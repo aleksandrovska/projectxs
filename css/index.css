@@ -62,7 +62,7 @@
   
   
   .container-2 {
-    background-image: url(../img/sport.jpg);
+    /* background-image: url(../img/sport.jpg); */
     background-position: center;
     background-size: cover;
   
@@ -74,55 +74,11 @@
   
    
     align-items: center;
-    padding-left: 10%;
-  
+   
   
   
   }
-  @media (min-width: 576px) {
-    .container-2 {
-      right: auto;
-      left: 0;
-    }
-    .container-2 {
-      right: 0;
-      left: auto;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container-2 {
-      right: auto;
-      left: 0;
-    }
-    .container-2 {
-      right: 0;
-      left: auto;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container-2 {
-      right: auto;
-      left: 0;
-    }
-    .container-2 {
-      right: 0;
-      left: auto;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container-2 {
-      right: auto;
-      left: 0;
-    }
-    .container-2 {
-      right: 0;
-      left: auto;
-    }
-  }
-
+ 
   
   .box-4 .group {
     position: relative;
@@ -178,12 +134,12 @@
   
   
   /* BOTTOM BARS ================================= */
-  .bar {
+  /* .navbar {
     position: relative;
     display: block;
     width: 240px;
-  }
-  .bar:before, .bar:after {
+  } */
+  .navbar:before, .bar:after {
     content: "";
     height: 2px;
     width: 0;
@@ -194,16 +150,16 @@
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
   }
-  .bar:before {
+  .navbar:before {
     left: 50%;
   }
-  .bar:after {
+  .navbar:after {
     right: 50%;
   }
   
   /* active state */
-  input:focus ~ .bar:before,
-  input:focus ~ .bar:after {
+  input:focus ~ .navbar:before,
+  input:focus ~ .navbar:after {
     width: 50%;
   }
   
