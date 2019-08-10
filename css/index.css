@@ -169,15 +169,15 @@
     background-color: #f4623a;
     text-align: left;
     border-radius: 8px;
-    margin: 150px auto 100px auto;
+    margin: 30px auto 30px auto;
   
     text-decoration: none;
     padding: 2px;
     color: #fff;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 18px;
-    padding-block-end: 15px;
+    padding-top: 10px;
+    padding-block-end: 10px;
     filter: alpha(Opacity=80);
   
     opacity: 0.80;
